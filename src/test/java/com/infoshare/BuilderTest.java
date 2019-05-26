@@ -15,7 +15,7 @@ public class BuilderTest {
                 .local("lubelskie")
                 .builld();
 
-        Sample.builder().city("Lublin").postalCode("20-819").local("lubelskie").id(0);
+        Sample.builder().city("Lublin").postalCode("20-819").local("lubelskie").id(0).build();
     }
 
 }
